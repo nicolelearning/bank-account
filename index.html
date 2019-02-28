@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>address book</title>
+  </head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <body>
+    <h1>Address Book</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="new-account">
+            <label>New Account</label>
+            <div class="form-group">
+              <label for="new-name">Name</label>
+              <input type="text" class="form-control" id="new-name">
+            </div>
+            <label>Initial Deposit</label>
+            <div class="form-group">
+              <label for="new-deposit">deposit</label>
+              <input type="text" class="form-control" id="new-deposit">
+            </div>
+            <button type="submit" class="btn">Create</button>
+
+          </form>
+          <h2>Accounts:</h2>
+          <ul id="accounts">
+
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
